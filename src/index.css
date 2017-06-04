@@ -1,0 +1,71 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: white;
+  overflow: hidden;
+}
+h2{
+  height: 50px;
+}
+small{
+  color: purple !important;
+  display: none;
+}
+ul{
+  width: 60%;
+  height:50%;
+  margin: 0px auto;
+  list-style: none;
+  padding: 15px;
+  overflow: auto;
+  position: relative;
+}
+li>p{
+  text-align: center;
+  color: #33a9fc;
+  font-size: 14px;
+}
+li>.lost{
+  color: grey;
+}
+.ipt{
+  width: 60%;
+  margin: 20px auto;
+}
+#send{
+  cursor: pointer;
+}
+
+
+/* 模态窗 */
+.mymodal{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+.content{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.name{
+  border: none;
+  outline: none;
+  background: #000;
+  border-bottom: 2px solid white;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 36px;
+}
